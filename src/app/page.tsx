@@ -1,9 +1,10 @@
-import Image from "next/image";
+import { Homepage, Navbar } from '@/components';
 
 export default function Home() {
   return (
-    <div className="antialiased grainy">
-
+    <div className='antialiased grainy'>
+      <Navbar />
+      <Homepage />
     </div>
   );
 }
